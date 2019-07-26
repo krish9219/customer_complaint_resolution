@@ -35,4 +35,54 @@ __**Column names**__ = ['date_received', 'product', 'sub_product', 'issue', 'sub
        
 data shape = (555957, 7)
 
+![center](./Images/data_shape.png)
 
+__**METHOD 1**__
+
+Most repeated tag in the data is Mortrage.
+
+![center](./Images/freq.png)
+
+___***Text Cleaning***___
+
+![center](./Images/text_cleaning.png)
+
+**Logistic Regression Model**
+
+![center](./Images/lg.png)
+
+**Navie Bayes Model**
+
+![center](./Images/nb.png)
+
+**Support Vector Machine Model**
+
+![center](./Images/svm.png)
+
+***Random Forest Model***
+
+![center](./Images/rf.png)
+
+**Xtra Gradient Boosting Model**
+
+![center](./Images/xgb.png)
+
+**Better Accuracy**
+
+Performance of  __***XGB***__ is better than other models. Using RamdomSearchCv will make model more generalise and give overall better efficiency.
+
+__**METHOD 2**__
+
+__***Text Cleaning***__
+
+![center](./Images/text_cleaning2.png)
+
+__***TFIDF Vectorizer***___
+
+![center](./Images/tfidf1.png)
+
+**Final Accuracy**
+
+![center](./Images/final.png)
+
+In both the methods __***XGB***__ performs slightly better than __***RF***__. But using RandomSearchCv could make the game changer.
